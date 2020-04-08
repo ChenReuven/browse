@@ -8,7 +8,7 @@ window.renderBrowse = (containerId, history) => {
   ReactDOM.render(
     <App history={history} />,
     document.getElementById(containerId),
-  );//
+  );
   unregister();
 };
 
